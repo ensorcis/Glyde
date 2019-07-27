@@ -61,7 +61,7 @@
         app:srcCompat="@drawable/glyde_logo" />
 
     <Button
-        android:id="@+id/BTN_Signup"
+        android:id="@+id/BTN_Login_Signup"
         android:layout_width="275sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -73,12 +73,13 @@
         android:text="@string/signup"
         android:textColor="#ffffff"
         android:textSize="20sp"
+        android:onClick="switchActivities"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ET_Password" />
 
     <Button
-        android:id="@+id/BTN_Login"
+        android:id="@+id/BTN_Login_Login"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,11 +88,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/login"
+        android:onClick="chkInput"
         android:background="@drawable/btn_main_login"
         android:textSize="15sp"
         android:textColor="#0dd0c4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BTN_Signup" />
+        app:layout_constraintTop_toBottomOf="@+id/BTN_Login_Signup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
