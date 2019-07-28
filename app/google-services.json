@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "505486768387",
+    "firebase_url": "https://glyde-72319.firebaseio.com",
+    "project_id": "glyde-72319",
+    "storage_bucket": "glyde-72319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505486768387:android:5454d933e12f3b70",
+        "android_client_info": {
+          "package_name": "com.example.glyde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505486768387-nooojfod7oshgoik9r4qcbru08fg4m85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.glyde",
+            "certificate_hash": "ceebb4f27a9fc66cb30ce5503bd756180156a848"
+          }
+        },
+        {
+          "client_id": "505486768387-d43ddmv3ps6p2q6aqkqf5gvc77ntcl3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAF7sePeYOneR_Psdd5ETi9AKRb4ehc9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505486768387-5cii6mkr8t0uvllhgpfpb561tcakoc8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

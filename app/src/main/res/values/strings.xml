@@ -6,4 +6,7 @@
     <string name="signup">SignUp</string>
     <string name="main_logo">Main Logo</string>
     <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="id">ID</string>
+    <string name="signout">SignOut</string>
 </resources>
