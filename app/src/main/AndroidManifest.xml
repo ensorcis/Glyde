@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/glyde_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".userAccount"></activity>
+        <activity android:name=".userAccount">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".signup"
             android:parentActivityName=".Login">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Login" />
-
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-            </intent-filter>
+                android:value=".Login"/>
         </activity>
         <activity android:name=".Login">
             <intent-filter>
